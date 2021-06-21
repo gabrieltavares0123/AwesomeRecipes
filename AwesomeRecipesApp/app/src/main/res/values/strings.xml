@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Awesome Recipes</string>
+    <string name="permission_rationale_default_text">"This permission is necessary."</string>
+</resources>
