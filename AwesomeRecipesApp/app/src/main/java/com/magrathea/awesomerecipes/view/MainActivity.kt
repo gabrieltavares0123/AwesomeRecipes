@@ -27,8 +27,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this, getString(R.string.permission_granted), Toast.LENGTH_LONG)
         fragmentUtil.replaceFragmentWithoutHistory(
             fragmentActivity = this,
-            fragment = RecipesListFragment.newInstance(),
-            containerId = R.id.nav_host_fragment
+            fragment = RecipesListFragment.newInstance()
         )
     }
     private var onPermissionDenied: () -> Unit = {
